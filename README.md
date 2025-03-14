@@ -100,7 +100,6 @@ Contributions to **Boosting VI NN** are welcome! To contribute:
 - Make sure your code adheres to the project’s coding standards and add tests where appropriate.
 - Submit a pull request detailing your changes.
 
-For more detailed contribution guidelines, please see [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## License
 
@@ -109,8 +108,8 @@ For more detailed contribution guidelines, please see [CONTRIBUTING.md](CONTRIBU
 ## Contact
 
 If you have any questions, suggestions, or need further assistance, please feel free to reach out:
-- **GitHub:** [yourusername](https://github.com/yourusername)
-- **Email:** your.email@example.com
+- **GitHub:** [paviabera](https://github.com/paviabera)
+- **Email:** paviabera@usf.edu
 
 
 
