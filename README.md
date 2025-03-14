@@ -112,8 +112,7 @@ If you have any questions, suggestions, or need further assistance, please feel 
 - **GitHub:** [yourusername](https://github.com/yourusername)
 - **Email:** your.email@example.com
 
-We look forward to your feedback and contributions!
-```
+
 
    
 
