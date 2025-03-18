@@ -1,0 +1,46 @@
+{
+	"name": "usf-ncrg-BNN",
+	"build": {
+		"dockerfile": "Dockerfile",
+		"args": { "VARIANT": "bookworm" }
+	},
+
+	"customizations": {
+		"codespaces": {
+			"extensions": [
+			]
+		},
+		// Add the IDs of extensions you want installed when the container is created.
+		"vscode": {
+			"extensions": [
+				"eamodio.gitlens",
+				"ms-toolsai.jupyter",
+				"ms-toolsai.jupyter-renderers",
+				"ms-toolsai.jupyter-keymap",
+				"ms-toolsai.vscode-jupyter-cell-tags",
+				"ms-toolsai.vscode-jupyter-slideshow",
+				"ms-python.python"
+			]
+		},
+		"settings": {
+			"extensions.verifySignature": false,
+			"python.defaultInterpreterPath": "/usr/local/bin/python3"
+			
+		}
+	},
+
+	// Use 'forwardPorts' to make a list of ports inside the container available locally.
+	"forwardPorts": [],
+
+	// Uncomment to use the Docker CLI from inside the container. See https://aka.ms/vscode-remote/samples/docker-from-docker.
+	"mounts": [],
+
+	// Uncomment when using a ptrace-based debugger like C++, Go, and Rust
+	// "runArgs": [ "--cap-add=SYS_PTRACE", "--security-opt", "seccomp=unconfined" ],
+
+	// Comment out to connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
+	"postCreateCommand": "pip install -r requirements.txt && python -m ipykernel install --user --name=python3 --display-name='Python 3.11 (Container)'",
+	"remoteUser": "vscode"
+	
+}
+
